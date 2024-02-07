@@ -1,12 +1,16 @@
-.product{
-    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.karousell.com%2Fmedia%2Fphotos%2Fproducts%2F2022%2F11%2F12%2Fdressed_chicken_and_special_ca_1668241755_c68486ba_thumbnail.jpg&tbnid=gZgm4S36NqW9JM&vet=12ahUKEwiuoLrOk5iEAxWanq8BHT14AXIQMygpegUIARCqAQ..i&imgrefurl=https%3A%2F%2Fwww.carousell.ph%2Fdressed-chicken%2Fq%2F&docid=RCcxrMN7vRkK6M&w=320&h=320&q=dress%20chicken%20sales&ved=2ahUKEwiuoLrOk5iEAxWanq8BHT14AXIQMygpegUIARCqAQ);
-    width: 20px;
-    height: 20px;
-    background-size: 30%;
+body {
+    background-image: url(https://previews.123rf.com/images/volhabelausava/volhabelausava1505/volhabelausava150500021/40301983-hand-drawn-geometric-seamless-pattern-with-circles-vector-doodle-repeating-background.jpg);
 }
-.body1{
-    background-image: url(https://www.modernretail.co/wp-content/uploads/sites/5/2021/12/phone_buy-now.gif);
-    position: fixed;
-    width: auto;
-    height: auto;
+
+.products {
+    padding: 30px;
+    
+
+    div {
+        height: 500px;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 35px;
+        background-color: rgb(255, 255, 255);
+    }
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce</title>
+    <title>Log-in</title>
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
@@ -12,11 +12,11 @@
     <div class="log">
         <h1 class="title">Fkidz'</h1>
         <div class="login">
-            <div>
+            <form action="#" method="post" id="loginForm">
                 <input type="text" id="username" placeholder="Username" required><br><br>
                 <input type="password" id="password" placeholder="Password" required><br><br><br>
-                <a href="./views/main.html"><button class="btn" onclick="return validateForm()">Log-in</button></a>
-            </div>
+                <button type="submit" class="btn">Log-in</button>
+            </form>
         </div>
             <a href="./views/signup.html">Create an account?</a>
     </div>
