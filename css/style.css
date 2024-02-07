@@ -1,0 +1,21 @@
+.log {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: paleturquoise;
+    margin-top: 50px;
+    
+    .title {
+        font-family: Helvetica;
+        font-weight: bolder;
+        font-size: 78px;
+        text-align: center;
+    }
+
+    .login {
+        text-align: center;
+        font-family: 'Courier New';
+        margin-top: 20px;
+    }
+}
