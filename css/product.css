@@ -4,3 +4,9 @@
     height: 20px;
     background-size: 30%;
 }
+.body1{
+    background-image: url(https://www.modernretail.co/wp-content/uploads/sites/5/2021/12/phone_buy-now.gif);
+    position: fixed;
+    width: auto;
+    height: auto;
+}
