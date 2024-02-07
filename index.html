@@ -12,11 +12,11 @@
     <div class="log">
         <h1 class="title">Fkidz'</h1>
         <div class="login">
-            <form action="#" method="post">
-                <input type="text" placeholder="Username" required><br><br>
-                <input type="password" placeholder="Password" required><br><br><br>
-                <input class="btn" type="submit" value="Log-in">
-            </form>
+            <div>
+                <input type="text" id="username" placeholder="Username" required><br><br>
+                <input type="password" id="password" placeholder="Password" required><br><br><br>
+                <a href="./views/main.html"><button class="btn" onclick="return validateForm()">Log-in</button></a>
+            </div>
         </div>
             <a href="./views/signup.html">Create an account?</a>
     </div>
