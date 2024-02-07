@@ -32,4 +32,12 @@ body {
         text-decoration: none;
         cursor: pointer;
     }
+
+    input[data-state="valid"] {
+        border-color: hsl(120, 76%, 50%);
+    }
+
+    input[data-state="invalid"] {
+        border-color: hsl(0, 76%, 50%);
+    }
 }

@@ -29,7 +29,8 @@ body {
     }
 
     a {
-        font-size: x-small;
+        font-size: x-small
+        ;
         text-decoration: none;
         cursor: pointer;
     }
