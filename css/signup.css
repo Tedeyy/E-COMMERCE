@@ -1,0 +1,36 @@
+body {
+    background-image: url(https://previews.123rf.com/images/volhabelausava/volhabelausava1505/volhabelausava150500021/40301983-hand-drawn-geometric-seamless-pattern-with-circles-vector-doodle-repeating-background.jpg);
+}
+
+.log {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: paleturquoise;
+    margin-top: 50px;
+    
+    .title {
+        font-family: Helvetica;
+        font-weight: bolder;
+        font-size: 78px;
+        text-align: center;
+    }
+
+    .login {
+        text-align: center;
+        font-family: 'Courier New';
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        .btn {
+            cursor: pointer;
+        }
+    }
+
+    a {
+        font-size: x-small;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
