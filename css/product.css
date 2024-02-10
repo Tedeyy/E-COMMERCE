@@ -8,13 +8,28 @@ body {
     
 
     div {
-        height: 500px;
+        height: 400px;
         width: 300px;
         border: 2px solid black;
         border-radius: 35px;
         background-color: rgb(255, 255, 255);
         float: left;
         margin-left: 20px;
+        text-align: center;
+        
+        h3 {
+            font-family: monospace;
+            font-weight: bolder;
+        }
+
+        h5 {
+            font-family: Courier;
+            font-weight: lighter;
+        }
+
+        img {
+            border-radius: 35%;
+        }
     }
 }
 
