@@ -2,40 +2,27 @@ body {
     background-image: url(https://previews.123rf.com/images/volhabelausava/volhabelausava1505/volhabelausava150500021/40301983-hand-drawn-geometric-seamless-pattern-with-circles-vector-doodle-repeating-background.jpg);
 }
 
-.products {
-    padding: 30px;
-    margin-bottom: 1100px;
-    
+.back {
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 100%;
+}
 
-    div {
-        height: 350px;
-        width: 300px;
-        border: 2px solid black;
+.product {
+    margin-top: 40px;
+    height: 450px;
+    width: 90%;
+    border-radius: 0px 35px 35px 0px;
+    background-color: white;
+    float: right;
+
+    img {
         border-radius: 35px;
-        background-color: rgb(255, 255, 255);
-        float: left;
-        margin-top: 20px;
-        margin-left: 20px;
-        text-align: center;
-        
-        h3 {
-            font-family: monospace;
-            font-weight: bolder;
-        }
-
-        h5 {
-            font-family: Courier;
-            font-weight: lighter;
-        }
-
-        img {
-            border-radius: 35%;
-        }
     }
 }
 
 footer {
-    
+    margin-top: 500px;
     width: 100%;
     height: 400px;
     background-color: darkcyan;
